@@ -28,21 +28,24 @@ public class Task_3 {
         switch (operation) {
             case "+":
                 result = num1+num2;
+                System.out.printf("Ответ: %.2f.\n", result);
                 break;
             case "-":
                 result = num1-num2;
+                System.out.printf("Ответ: %.2f.\n", result);
                 break;
             case "*":
                 result = num1*num2;
+                System.out.printf("Ответ: %.2f.\n", result);
                 break;
             case "/":
                 result = num1/num2;
+                System.out.printf("Ответ: %.2f.\n", result);
                 break;
             default:
                 System.out.print("Такой операции нет.\n");
                 break;
         }
-        System.out.printf("Ответ: %.2f.\n", result);
         iScanner.close();
     }
 }
